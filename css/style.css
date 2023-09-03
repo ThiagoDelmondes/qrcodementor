@@ -1,0 +1,38 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.rem-1 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+
+.qr-container-main {
+  width: 100%;
+  height: 100vh;
+  place-content: center;
+  display: grid;
+}
+
+.qr-container {
+  width: 320px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  padding: 20px 20px 30px 20px;
+}
+
+.qr-descricao {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.qr-descricao h2 {
+  color: hsl(218, 44%, 22%);
+}
+
+.qr-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
